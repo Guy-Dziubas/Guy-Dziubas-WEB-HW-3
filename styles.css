@@ -1,0 +1,164 @@
+/* ===== רקע כללי של הג'ונגל ===== */
+body {
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+
+  /* תמונת רקע של ג'ונגל לכל האתר */
+  background-image: url("/Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* שכבת צבע ירוק שקוף קלה מעל התמונה */
+  background-color: rgba(4, 130, 67, 0.4);        /* Jungle green שקוף מעט */
+  background-blend-mode: overlay;                 /* מערבב את הצבע עם התמונה */
+}
+
+/* טעינת פונט לכותרת */
+@font-face {
+  font-family: animalFont;
+  src: url("./fonts/Meows-VGWjy.ttf");
+}
+
+/* ===== טקסטים ===== */
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 4.5rem;
+  font-family: "animalFont", cursive;
+  color: #E9ED60;                 /* צהוב‑ליים בהיר שמתבלט על הירוק */
+  -webkit-text-stroke: 2px #1F3F2B; /* קו חיצוני ירוק כהה */
+}
+
+#para1 {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  font-family: "Arvo", cursive;
+  color: #f4ff1f;                 /* בז' בהיר */
+}
+
+/* ===== כפתורי החיות ===== */
+
+/* מיכל הכפתורים – flexbox */
+.set {
+  margin: 5% auto 0;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* כפתור חיה כללי */
+.animal {
+  box-sizing: border-box;
+  cursor: pointer;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 18px;
+  border: 6px solid #135E46;      /* ירוק ג'ונגל כהה */
+  background-color: #264026;      /* ירוק כהה מאוד כרקע בסיסי */
+
+  font-family: "Arvo", cursive;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 150px;
+  color: #a9b134;                 /* ורוד חזק לאות */
+  text-shadow: 0 0 8px #000000;
+
+  box-shadow: 0 8px 0 #0C3123;    /* הצללה למטה */
+  transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.1s ease;
+}
+
+/* אנימציית לחיצה (מתחברת ל-JS) */
+.pressed {
+  transform: translateY(4px);
+  box-shadow: 0 4px 0 #0C3123;
+  opacity: 0.7;
+}
+
+/* ===== תמונות רקע לכל חיה ===== */
+.snake {
+  background-image: url("./images/david-clode-BP-kg9IAAAk-unsplash.jpg");
+}
+.frog {
+  background-image: url("./images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg");
+}
+.croc {
+  background-image: url("./images/bharathi-kannan-0TMp7KJs4Pg-unsplash.jpg");
+}
+.elephant {
+  background-image: url("./images/nam-anh-QJbyG6O0ick-unsplash.jpg");
+}
+.tiger {
+  background-image: url("./images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg");
+}
+.monkey {
+  background-image: url("./images/dusan-veverkolog-vyd2f5MCxeM-unsplash.jpg");
+}
+.parot {
+  background-image: url("./images/zdenek-machacek-OlKkCmToXEs-unsplash.jpg");
+}
+
+/* כל התמונות בתוך הכפתורים */
+.snake,
+.frog,
+.croc,
+.elephant,
+.tiger,
+.monkey,
+.parot {
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== רספונסיביות לנייד ===== */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+
+  #para1 {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .animal {
+    width: 110px;
+    height: 110px;
+    font-size: 3rem;
+    line-height: 110px;
+    border-width: 4px;
+  }
+}
+
+/* מיכל הכפתור הרנדומלי */
+.random-container {
+  margin-top: 30px;
+}
+
+/* כפתור random מעוצב בסגנון הג'ונגל */
+.random-button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-family: "Arvo", cursive;
+  font-weight: 700;
+  color: #F5F3E7;
+  background-color: #135E46;      /* ירוק ג'ונגל כהה */
+  border: 3px solid #E9ED60;      /* מסגרת צהובה כמו הכותרת */
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #0C3123;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.1s ease;
+}
+
+/* אפקט לחיצה */
+.random-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #0C3123;
+  opacity: 0.85;
+}
+
