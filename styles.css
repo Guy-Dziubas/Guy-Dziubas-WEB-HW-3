@@ -5,7 +5,7 @@ body {
   text-align: center;
 
   /* תמונת רקע של ג'ונגל לכל האתר */
-  background-image: url("/Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
+  background-image: url("../Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 /* טעינת פונט לכותרת */
 @font-face {
   font-family: animalFont;
-  src: url("./fonts/Meows-VGWjy.ttf");
+  src: url("../fonts/Meows-VGWjy.ttf");
 }
 
 /* ===== טקסטים ===== */
