@@ -81,25 +81,25 @@ h1 {
 
 /* ===== תמונות רקע לכל חיה ===== */
 .snake {
-  background-image: url("../Images/david-clode-BP-kg9IAAAk-unsplash.jpg");
+  background-image: url("./Images/david-clode-BP-kg9IAAAk-unsplash.jpg");
 }
 .frog {
-  background-image: url("../Images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg");
+  background-image: url("./Images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg");
 }
 .croc {
-  background-image: url("../Images/bharathi-kannan-0TMp7KJs4Pg-unsplash.jpg");
+  background-image: url("./Images/bharathi-kannan-0TMp7KJs4Pg-unsplash.jpg");
 }
 .elephant {
-  background-image: url("../Images/nam-anh-QJbyG6O0ick-unsplash.jpg");
+  background-image: url("./Images/nam-anh-QJbyG6O0ick-unsplash.jpg");
 }
 .tiger {
-  background-image: url("../Images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg");
+  background-image: url("./Images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg");
 }
 .monkey {
-  background-image: url("../Images/dusan-veverkolog-vyd2f5MCxeM-unsplash.jpg");
+  background-image: url("./Images/dusan-veverkolog-vyd2f5MCxeM-unsplash.jpg");
 }
 .parot {
-  background-image: url("../Images/zdenek-machacek-OlKkCmToXEs-unsplash.jpg");
+  background-image: url("./Images/zdenek-machacek-OlKkCmToXEs-unsplash.jpg");
 }
 
 /* כל התמונות בתוך הכפתורים */
