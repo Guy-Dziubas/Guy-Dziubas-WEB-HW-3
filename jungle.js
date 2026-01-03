@@ -1,6 +1,10 @@
 // jungle.js
 
+<<<<<<< HEAD
 
+
+=======
+>>>>>>> db048409837c7ace95a36661464af435e2a411a7
 // כל הכפתורים עם class="animal"
 var buttons = document.querySelectorAll(".animal");
 
