@@ -5,7 +5,11 @@ body {
   text-align: center;
 
   /* תמונת רקע של ג'ונגל לכל האתר */
+<<<<<<< HEAD
   background-image: url("./Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
+=======
+  background-image: url("../Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
+>>>>>>> db048409837c7ace95a36661464af435e2a411a7
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +19,15 @@ body {
   background-blend-mode: overlay;                 /* מערבב את הצבע עם התמונה */
 }
 
+<<<<<<< HEAD
 
+=======
+/* טעינת פונט לכותרת */
+@font-face {
+  font-family: animalFont;
+  src: url("../fonts/Meows-VGWjy.ttf");
+}
+>>>>>>> db048409837c7ace95a36661464af435e2a411a7
 
 /* ===== טקסטים ===== */
 h1 {

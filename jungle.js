@@ -1,7 +1,10 @@
 // jungle.js
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> db048409837c7ace95a36661464af435e2a411a7
 // כל הכפתורים עם class="animal"
 var buttons = document.querySelectorAll(".animal");
 
@@ -41,22 +44,22 @@ function makeSound(key) {
             currentAudio = new Audio("./sounds/snake-hissing-6092.mp3");
             break;
         case "a": // frog
-            currentAudio = new Audio("sounds/frog-1-352709.mp3");
+            currentAudio = new Audio("./sounds/frog-1-352709.mp3");
             break;
         case "s": // croc
             currentAudio = new Audio("./sounds/alligator-411864.mp3");
             break;
         case "d": // elephant
-            currentAudio = new Audio("sounds/elephant-trumpets-growls-6047.mp3");
+            currentAudio = new Audio("./sounds/elephant-trumpets-growls-6047.mp3");
             break;
         case "j": // tiger
-            currentAudio = new Audio("sounds/harimau-220046.mp3"); // תעדכן לשם קובץ הטיגריס שלך
+            currentAudio = new Audio("./sounds/harimau-220046.mp3"); // תעדכן לשם קובץ הטיגריס שלך
             break;
         case "k": // monkey
-            currentAudio = new Audio("sounds/monkey-sound-295406.mp3");
+            currentAudio = new Audio("./sounds/monkey-sound-295406.mp3");
             break;
         case "l": // parrot
-            currentAudio = new Audio("sounds/parrot-80775.mp3");
+            currentAudio = new Audio("./sounds/parrot-80775.mp3");
             break;
         default:
             // אות שלא מכירים – לא לעשות כלום כדי לא להציף alert
