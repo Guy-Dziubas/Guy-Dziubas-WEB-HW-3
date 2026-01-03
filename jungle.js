@@ -1,12 +1,6 @@
 // jungle.js
 
-// כשדף הג'ונגל נטען – נגן מוזיקת רקע שקטה
-window.addEventListener("load", function () {
-    var jungleAudio = new Audio("./sounds/african-rhythm.mp3");
-    jungleAudio.volume = 0.4;
-    jungleAudio.loop = true; // שיהיה לופ רקע
-    jungleAudio.play();
-});
+
 
 // כל הכפתורים עם class="animal"
 var buttons = document.querySelectorAll(".animal");

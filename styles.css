@@ -5,7 +5,7 @@ body {
   text-align: center;
 
   /* תמונת רקע של ג'ונגל לכל האתר */
-  background-image: url("/Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
+  background-image: url("./Images/chris-abney-qLW70Aoo8BE-unsplash.jpg"); /* כאן תשנה לשם הקובץ שלך */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,18 +15,15 @@ body {
   background-blend-mode: overlay;                 /* מערבב את הצבע עם התמונה */
 }
 
-/* טעינת פונט לכותרת */
-@font-face {
-  font-family: animalFont;
-  src: url("./fonts/Meows-VGWjy.ttf");
-}
+
 
 /* ===== טקסטים ===== */
 h1 {
   margin-top: 40px;
   margin-bottom: 10px;
   font-size: 4.5rem;
-  font-family: "animalFont", cursive;
+  /* font-family removed as the custom font is missing */
+  font-family: cursive;
   color: #E9ED60;                 /* צהוב‑ליים בהיר שמתבלט על הירוק */
   -webkit-text-stroke: 2px #1F3F2B; /* קו חיצוני ירוק כהה */
 }
@@ -81,25 +78,25 @@ h1 {
 
 /* ===== תמונות רקע לכל חיה ===== */
 .snake {
-  background-image: url("./images/david-clode-BP-kg9IAAAk-unsplash.jpg");
+  background-image: url("./Images/david-clode-BP-kg9IAAAk-unsplash.jpg");
 }
 .frog {
-  background-image: url("./images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg");
+  background-image: url("./Images/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg");
 }
 .croc {
-  background-image: url("./images/bharathi-kannan-0TMp7KJs4Pg-unsplash.jpg");
+  background-image: url("./Images/bharathi-kannan-0TMp7KJs4Pg-unsplash.jpg");
 }
 .elephant {
-  background-image: url("./images/nam-anh-QJbyG6O0ick-unsplash.jpg");
+  background-image: url("./Images/nam-anh-QJbyG6O0ick-unsplash.jpg");
 }
 .tiger {
-  background-image: url("./images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg");
+  background-image: url("./Images/frida-lannerstrom-IDO_a-dxrCY-unsplash.jpg");
 }
 .monkey {
-  background-image: url("./images/dusan-veverkolog-vyd2f5MCxeM-unsplash.jpg");
+  background-image: url("./Images/dusan-veverkolog-vyd2f5MCxeM-unsplash.jpg");
 }
 .parot {
-  background-image: url("./images/zdenek-machacek-OlKkCmToXEs-unsplash.jpg");
+  background-image: url("./Images/zdenek-machacek-OlKkCmToXEs-unsplash.jpg");
 }
 
 /* כל התמונות בתוך הכפתורים */
